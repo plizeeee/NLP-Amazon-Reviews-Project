@@ -1,6 +1,6 @@
 This repository contains the code and report of my NLP course project (part of my MSc. in Social Data Science at the University of Oxford). I jointly predict the helpfulness and 5-star rating of Amazon reviews using various NLP models and combinations of features.
 
-The full reports is available in the "Full report.pdf" file. Most of the code as well as a detailed breakdown of my methodology is available in the "Main_Code.ipynb" file. I also used Google Colab for their GPUs to train my LSTM models, which is available in the "LSTM_Code_Colab.ipynb" notebook. Below I include various key figures from my work.
+The full reports is available in the "Full report.pdf" file. Most of the code as well as a detailed breakdown of my methodology is available in the "Main_Code.ipynb" file. I also used Google Colab for their GPUs to train my LSTM models, which is available in the "LSTM_Code_Colab.ipynb" notebook. Below I include various key figures and a short summary of my work
 
 ## Exploratory Analysis
 After extracting the data from [https://jmcauley.ucsd.edu/data/amazon/](https://jmcauley.ucsd.edu/data/amazon/), cleaning it (see my full report for details on the cleaning process) and pickling it for faster loading, I used various techniques to explore the data. This included Jaccard similarities, rank frequency plots of the vocabularies, Vader sentiment as well as Flesch–Kincaid readability scores of each review, mutual information, and t-SNE plots. Below I show the t-SNE plots, and the other analysis' can be found in the "Main_Code.ipynb" notebook.
